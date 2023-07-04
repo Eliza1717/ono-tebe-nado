@@ -10,7 +10,6 @@
 }
 
 .header__menu {
-    line-height: 21px;
     color: #000;
     font-size: 18px;
 }
@@ -62,4 +61,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
+}
+
+.image_lotus {
+    width: 1440px;
+    height: 757px;
 }
