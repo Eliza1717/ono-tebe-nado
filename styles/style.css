@@ -10,6 +10,8 @@
 
 .header__menu {
     justify-self: start;
+    width: 388px;
+    height: 23px;
     color: #000;
     font-size: 18px;
 }
@@ -66,7 +68,7 @@
 }
 
 .overlay{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     inset: 0;
@@ -168,5 +170,100 @@
     background: transparent;
     background-color: transparent;
     background-image: none;
+}
+
+.lots {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+    gap: 30px;
+}
+
+.lots__heading {
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-bottom: 27px;
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card-link {
+
+}
+
+.card {
+   
+   
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 430px;
+    height: 450px; 
   
+}
+
+.card_type_book { 
+    align-self: center;
+    background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 430px;
+    height: 450px; 
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 430px;
+    height: 450px; 
+}
+
+.card__title {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+
+.card__text {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 350px;
+    height: 96px;
+    position: relative;
+    z-index: 3;
+}
+
+.lots__look-more-link {
+
 }
