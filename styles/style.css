@@ -182,7 +182,7 @@ a:hover {
 .lots__card-list {
     display: grid;
     grid-template-columns: 430px 430px 430px;
-    justify-content: space-evenly;   
+    justify-content: space-between;   
 }
 
 .lots__card-list-item {
@@ -288,9 +288,7 @@ a:hover {
 }
 
 .about__title {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 100px;
+    align-self: center;
     font-weight: 700;
     font-size: 40px;
     font-style: normal;
@@ -337,6 +335,7 @@ a:hover {
 .footer__social-list {
     display: flex;
     gap: 50px;
+    margin-bottom: 139px;
 }
 
 .footer__social-icon {
