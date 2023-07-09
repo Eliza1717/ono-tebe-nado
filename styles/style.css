@@ -8,18 +8,14 @@
 }
 
 .header__menu {
-  justify-self: start;
-  color: #000;
+  display: flex;
   font-size: 18px;
 }
 
 .header__links-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   gap: 32px;
-  margin-top: 43px;
-  margin-bottom: 45px;
+  align-self: center;
 }
 
 a:hover {
@@ -29,10 +25,6 @@ a:hover {
 /* решила сделать чуть инетернеснее)))  */
 
 .header__links-list-item {
-  margin-top: 4px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: normal;
   list-style: circle;
 }
 
@@ -43,7 +35,6 @@ a:hover {
 .header__logo-image {
   width: 148px;
   height: 105px;
-  margin-bottom: 4px;
 }
 
 .address {
@@ -52,15 +43,8 @@ a:hover {
 }
 
 .header__address {
-  display: flex;
-  flex-direction: column;
   justify-self: end;
-  width: 240px;
-  height: 24px;
-  margin-top: 5px;
-  margin-bottom: 7px;
-  color: #000;
-  font-weight: 400;
+  align-self: center;
   font-style: normal;
   line-height: 24.3px;
 }
@@ -77,8 +61,6 @@ a:hover {
 .cover {
   position: relative;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 181px;
   padding: 165px 50px 50px 50px;
   background-image: url("../images/cover.jpg");
@@ -90,7 +72,6 @@ a:hover {
   position: relative;
   z-index: 3;
   color: #fff;
-  font-weight: 700;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 30px;
@@ -126,10 +107,7 @@ a:hover {
   grid-template-columns: 260px 1fr 260px;
   margin-top: 135px;
   color: #fff;
-  font-weight: 400;
   font-size: 22px;
-  font-style: normal;
-  line-height: 28px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -145,18 +123,14 @@ a:hover {
   grid-column-start: 3;
   grid-column-end: 4;
   justify-self: end;
-  max-width: 257px;
+  width: 257px;
   height: 52px;
   border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
-  font-weight: 400;
   font-size: 22px;
-  font-style: normal;
-  line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
-  background-image: none;
 }
 
 .lots {
@@ -166,13 +140,8 @@ a:hover {
 }
 
 .lots__heading {
-  margin-top: 27px;
   margin-left: 90px;
-  color: #000;
-  font-weight: 700;
   font-size: 40px;
-  font-style: normal;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -184,10 +153,6 @@ a:hover {
 
 .lots__card-list-item {
   list-style: none;
-}
-
-.card-link {
-  display: block;
 }
 
 .card {
@@ -232,9 +197,7 @@ a:hover {
   position: relative;
   z-index: 3;
   color: #fff;
-  font-weight: 700;
   font-size: 22px;
-  font-style: normal;
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -244,10 +207,7 @@ a:hover {
   position: relative;
   z-index: 3;
   color: #fff;
-  font-weight: 400;
   font-size: 20px;
-  font-style: normal;
-  line-height: 120%;
 }
 
 .lots__look-more-link {
@@ -271,7 +231,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
   width: 240px;
   height: 240px;
   border-radius: 150px;
@@ -285,10 +244,7 @@ a:hover {
 
 .about__title {
   align-self: center;
-  font-weight: 700;
   font-size: 40px;
-  font-style: normal;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -296,24 +252,25 @@ a:hover {
   grid-column-start: 2;
   grid-column-end: 3;
   margin-bottom: 180px;
-  font-weight: 400;
   font-size: 20px;
-  font-style: normal;
-  line-height: normal;
 }
 
 .footer {
   display: flex;
+  font-style: normal;
   justify-content: space-between;
   margin-right: 50px;
   margin-left: 50px;
+  margin-bottom: 139px;
+}
+
+.footer__address {
+  font-style: normal;
+  line-height: 24.3px;
 }
 
 .footer__menu {
-  font-weight: 400;
   font-size: 18px;
-  font-style: normal;
-  line-height: normal;
   text-align: center;
 }
 
@@ -330,10 +287,9 @@ a:hover {
 .footer__social-list {
   display: flex;
   gap: 50px;
-  margin-bottom: 139px;
 }
 
 .footer__social-icon {
-  max-width: 240px;
+  width: 48px;
   height: 48px;
 }
