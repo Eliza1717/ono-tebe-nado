@@ -264,7 +264,6 @@ a:hover {
 }
 
 .about__column {
-  padding-right: 95px;
   padding-left: 95px;
 }
 
@@ -296,7 +295,6 @@ a:hover {
 .about__text {
   grid-column-start: 2;
   grid-column-end: 3;
-  min-width: 885px;
   margin-bottom: 180px;
   font-weight: 400;
   font-size: 20px;
