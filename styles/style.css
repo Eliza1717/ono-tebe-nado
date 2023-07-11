@@ -214,6 +214,7 @@ a:hover {
 
 .lots__look-more-link {
   margin-left: 40px;
+  font-size: 20px;
 }
 
 .about {
@@ -273,6 +274,7 @@ a:hover {
 .footer__address {
   font-style: normal;
   line-height: 24.3px;
+  font-size: 18px;
 }
 
 .footer__menu {
